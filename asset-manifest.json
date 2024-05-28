@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2105e28a.css",
+    "main.js": "/static/js/main.b32600f0.js",
+    "static/js/453.7cbef870.chunk.js": "/static/js/453.7cbef870.chunk.js",
+    "static/media/me.png": "/static/media/me.b6514637b89135a6987f.png",
+    "static/media/Muhammad Harris Malik Resume - 2024.pdf": "/static/media/Muhammad Harris Malik Resume - 2024.8fee1bf51d3a2d806a25.pdf",
+    "static/media/avnt.ttf": "/static/media/avnt.426441f9b7673f724af3.ttf",
+    "index.html": "/index.html",
+    "main.2105e28a.css.map": "/static/css/main.2105e28a.css.map",
+    "main.b32600f0.js.map": "/static/js/main.b32600f0.js.map",
+    "453.7cbef870.chunk.js.map": "/static/js/453.7cbef870.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2105e28a.css",
+    "static/js/main.b32600f0.js"
+  ]
+}
