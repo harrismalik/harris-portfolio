@@ -1,0 +1,43 @@
+.footer-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.work-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    gap: 16px;
+}
+
+.colab-icon {
+    font-size: 38px;
+    border: 1px solid rgb(200,200,200);
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colab-text {
+    text-align: center;
+}
+
+.colab-cta {
+    display: flex;
+    gap: 16px;
+    padding-top: 18px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(100,100,100);
+}

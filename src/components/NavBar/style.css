@@ -1,0 +1,26 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    color: rgb(100,100,100);
+    padding-top: 18px;
+}
+
+.home-icon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-bar li:hover, .nav-bar a:hover {
+    transition: color 0.5s ease;
+    color: white;
+}
