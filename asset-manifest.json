@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/harris-portfolio/static/css/main.f319a425.css",
+    "main.css": "/harris-portfolio/static/css/main.26b60763.css",
     "main.js": "/harris-portfolio/static/js/main.722d89b5.js",
     "static/js/453.7cbef870.chunk.js": "/harris-portfolio/static/js/453.7cbef870.chunk.js",
     "static/media/me.png": "/harris-portfolio/static/media/me.b6514637b89135a6987f.png",
     "static/media/Muhammad Harris Malik Resume - 2024.pdf": "/harris-portfolio/static/media/Muhammad Harris Malik Resume - 2024.8fee1bf51d3a2d806a25.pdf",
     "static/media/avnt.ttf": "/harris-portfolio/static/media/avnt.426441f9b7673f724af3.ttf",
     "index.html": "/harris-portfolio/index.html",
-    "main.f319a425.css.map": "/harris-portfolio/static/css/main.f319a425.css.map",
+    "main.26b60763.css.map": "/harris-portfolio/static/css/main.26b60763.css.map",
     "main.722d89b5.js.map": "/harris-portfolio/static/js/main.722d89b5.js.map",
     "453.7cbef870.chunk.js.map": "/harris-portfolio/static/js/453.7cbef870.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f319a425.css",
+    "static/css/main.26b60763.css",
     "static/js/main.722d89b5.js"
   ]
 }
