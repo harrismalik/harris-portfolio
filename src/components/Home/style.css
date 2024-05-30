@@ -28,3 +28,26 @@
     font-size: 14px;
 }
 
+@media (max-width: 800px) {
+    .home-bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30vh;
+    }
+
+    .home {
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    .home > h1 {
+        font-size: 1.5rem;
+        letter-spacing: 0;
+        top: 32vh;
+    }
+
+    .home-about-me {
+        font-size: 12px;
+    }
+}

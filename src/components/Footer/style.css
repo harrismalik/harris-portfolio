@@ -41,3 +41,14 @@
     justify-content: space-between;
     color: rgb(100,100,100);
 }
+
+@media (max-width: 800px) {
+    .footer-bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .footer-bottom > p {
+        font-size: 14px;
+    }
+}

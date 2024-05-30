@@ -6,6 +6,12 @@
     /*opacity: 40%;*/
 }
 
+@media (max-width: 800px) {
+    .skill-icons {
+        display: none;
+    }
+}
+
 .skill-container {
     display: flex;
     gap: 38px;

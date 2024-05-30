@@ -24,3 +24,9 @@
     transition: color 0.5s ease;
     color: white;
 }
+
+@media (max-width: 800px) {
+    .nav-menu {
+        gap: 0.5rem;
+    }
+}
