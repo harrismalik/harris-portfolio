@@ -1,4 +1,4 @@
-import resume from "../assets/resume/Muhammad Harris Malik Resume - 2024.pdf";
+import resume from "../assets/resume/Muhammad-Harris-Malik-Resume.pdf";
 export const openResume = () => {
     window.open(resume,'_blank')
 }

@@ -1,9 +1,7 @@
 .skill-icons {
     display: flex;
     justify-content: space-evenly;
-    /*background-color: rgb(20,20,20);*/
     padding: 38px 0;
-    /*opacity: 40%;*/
 }
 
 @media (max-width: 800px) {

@@ -10,7 +10,7 @@ const Footer = () => {
                     <i className="ri-shake-hands-fill"></i>
                 </div>
                 <div className={'colab-text'}>
-                    <h1>Let's work together to make <br/> something awesome</h1>
+                    <h1>Let's build something great</h1>
                 </div>
                 <div className={'colab-cta'}>
                     <Cta title={'Email'}/>
@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={'footer-bottom'}>
-                <p>© 2024 All rights reserved</p>
+                <p>© 2025 <span className={'footer-name'}>Muhammad Harris Malik</span></p>
                 <ul className={'nav-menu hover-elm'}>
                     <li onClick={() => handleSocialLink('linkedin')}>
                     <span className={'reveal-box'}>

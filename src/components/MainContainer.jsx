@@ -43,18 +43,8 @@ function MainContainer() {
     },[])
 
     const cursorHandler = e => {
-        cursor.current.style.left = e.pageX-10+'px';
-        cursor.current.style.top = e.pageY+-10+'px';
-        gsap.to({},{
-            repeat:-1,
-            onRepeat: function () {
-                gsap.set(cursor,{
-                    css: {
-                        left:e.pageX-10+'px'
-                    }
-                })
-            }
-        })
+        cursor.current.style.left = e.clientX - 8 + 'px';
+        cursor.current.style.top = e.clientY - 8 + 'px';
     }
     useEffect(() => {
         const ctx = gsap.context(() => {
@@ -91,15 +81,24 @@ function MainContainer() {
             <div className={'mini-about-section scroll-main-heading'}>
                 <h2 className={'text-scroll-reveal'}>
                     <span className={'hover-elm'}>
-                        I believe in collaborative effort of right people have<br/>
-                        a potential to create something awesome. Always looking forward<br/>
-                        to get in touch with ambitious people with amazing goals.
+                        I help businesses turn complex ideas into working products.<br/>
+                        Whether you need an AI-powered automation system, a Voice AI agent,<br/>
+                        or a complete SaaS platform, I handle everything from architecture to deployment.
                     </span>
                 </h2>
             </div>
             <section id={'history'}>
                 <div className={'history-item-heading history-item hover-elm'}>
                     <h2><i className="ri-file-history-line"></i> Work History</h2>
+                </div>
+                <div className={'history-item hover-elm'}>
+                        <div className={'history-item-content'}>
+                            <div className={'history-item-detail'}>
+                                <h2>[2024 - Present] [Full Stack Engineer]</h2>
+                                <h4>(Vconekt)</h4>
+                            </div>
+                        </div>
+                        <div className={'history-item-mask'}></div>
                 </div>
                 <div className={'history-item hover-elm'}>
                         <div className={'history-item-content'}>
@@ -114,7 +113,7 @@ function MainContainer() {
                     <div className={'history-item-content'}>
                         <div className={'history-item-detail'}>
                             <h2>[2021 - 2023] [Software Engineer I - II]</h2>
-                            <h4>(Uforia Infotech)</h4>
+                            <h4>(Uforia Infotech | Glorify)</h4>
                         </div>
                     </div>
                     <div className={'history-item-mask'}></div>
@@ -122,17 +121,8 @@ function MainContainer() {
                 <div className={'history-item hover-elm'}>
                     <div className={'history-item-content'}>
                         <div className={'history-item-detail'}>
-                            <h2>[2020-2021] [Web Developer]</h2>
+                            <h2>[2020 - 2021] [Web Developer]</h2>
                             <h4>(AtOptimize)</h4>
-                        </div>
-                    </div>
-                    <div className={'history-item-mask'}></div>
-                </div>
-                <div className={'history-item hover-elm'}>
-                    <div className={'history-item-content'}>
-                        <div className={'history-item-detail'}>
-                            <h2>[2020] [Full Stack - Intern]</h2>
-                            <h4>(Zaf Technologies)</h4>
                         </div>
                     </div>
                     <div className={'history-item-mask'}></div>

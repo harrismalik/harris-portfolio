@@ -4,9 +4,9 @@ import SmoothScrolling from "./components/SmoothScrolling";
 
 function App() {
   return (
-      // <SmoothScrolling>
+      <SmoothScrolling>
         <MainContainer/>
-      // </SmoothScrolling>
+      </SmoothScrolling>
   );
 }
 
