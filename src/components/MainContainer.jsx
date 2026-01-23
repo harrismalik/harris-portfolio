@@ -1,7 +1,7 @@
 import '../App.css';
 import gsap from 'gsap';
 import ScrollTrigger from "gsap/ScrollTrigger"
-import {useEffect, useLayoutEffect, useRef, useState} from "react";
+import {useEffect, useLayoutEffect, useRef} from "react";
 import {loaderAnimation} from "./LoaderAnimation/animation";
 import LoaderAnimation from "./LoaderAnimation";
 import NavBar from "./NavBar";

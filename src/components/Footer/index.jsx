@@ -14,9 +14,9 @@ const Footer = () => {
                 </div>
                 <div className={'colab-cta'}>
                     <Cta title={'Email'}/>
-                    <a onClick={openResume} className={'cta hover-elm'}>
+                    <button onClick={openResume} className={'cta hover-elm'}>
                         <h5>Resume</h5>
-                    </a>
+                    </button>
                 </div>
             </div>
             <div className={'footer-bottom'}>

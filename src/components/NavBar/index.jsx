@@ -4,10 +4,10 @@ import {handleSocialLink, openResume} from "../../helpers/common";
 const NavBar = () => {
     return (
         <nav className={'nav-bar'}>
-            <a className={'home-icon hover-elm image-hover'}>
+            <span className={'home-icon hover-elm image-hover'}>
                 <i className="ri-terminal-fill"></i>
                 <p>Hello World!</p>
-            </a>
+            </span>
             <ul className={'nav-menu hover-elm'}>
                 <li onClick={() => handleSocialLink('linkedin')}>
                     <span className={'reveal-box'}>

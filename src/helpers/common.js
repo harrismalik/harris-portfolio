@@ -13,5 +13,8 @@ export const handleSocialLink = social => {
             break;
         case 'github':
             window.open('https://github.com/harrismalik', '_blank');
+            break;
+        default:
+            break;
     }
 }
